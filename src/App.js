@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { createRoot } from 'react-dom/client';
 import './App.css';
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
     );
 }
 
-const container = document.getElementById('root');
-const root = createRoot(container);
-root.render(<App />);
+export default App;
+
 
